@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+form #searchInput {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+form #searchButton {
+  border-radius: 5px;
+}
+
+.list-container {
+  margin-left: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistcs {
+  margin-right: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border-radius: 50%;
+}

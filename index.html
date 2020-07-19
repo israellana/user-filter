@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search User</title>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
+    <form target="#here" id="searchform">
+      <input type="search" id="searchInput" />
+      <input type="submit" id="searchButton" value="BUSCAR" />
+    </form>
+    <div class="container">
+      <div class="list-container">
+        <h1><span id="sumUsers">1</span> usuário(s) encontrado(s)</h1>
+        <ul id="list"></ul>
+      </div>
+
+      <div class="statistcs">
+        <h1>Estatisticas</h1>
+        <p>Sexo masculino: <span id="sumMaleUsers">0</span></p>
+        <p>Sexo feminino: <span id="sumFemaleUsers">0</span></p>
+        <p>Soma das idades: <span id="sumAges"></span></p>
+        <p>Média das idades: <span id="avarageAges"></span></p>
+      </div>
+    </div>
+  </body>
+  <script src="./src/js/index.js"></script>
+</html>
