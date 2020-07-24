@@ -35,7 +35,7 @@ let renderUsers = (filteredUsers) => {
   sumFemaleUsers.innerHTML = 0;
 
   filteredUsers.forEach((element) => {
-    listItem = `<li><img src="${element.picture}"/> ${element.name}, ${element.age} anos </li>`;
+    listItem = `<li><img src="${element.picture}"/><p>${element.name}, ${element.age} anos </p></li>`;
     list.innerHTML = list.innerHTML + listItem;
 
     if (element.gender == 'male') {
